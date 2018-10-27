@@ -1,0 +1,190 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #758173;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.img {
+  margin: 20px;
+  height: 100px;
+}
+
+.upcomingBtn {
+  margin-left: 30px;
+}
+
+.image-container {
+  margin: 20px;
+  height: 200px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap-reverse;
+}
+
+.detail{
+  color: white;
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+
+.property{
+  display: flex;
+  flex-direction: row;
+}
+
+.label{
+
+}
+
+.detail-text{
+  margin-left: 20px;
+}
+
+.error {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+background-color: #334950;
+padding: 30px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.header-title{
+color: white;
+font-size: 20px;
+margin-right: 180px;
+}
+
+.similiar-title{
+color: white;
+font-size: 20px;
+margin-left: 20px;
+margin-top: 50px;
+}
+
+.form {
+  align-content: center;
+  display: flex;
+  margin: 10px;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+button {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+input {
+  width: 400px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.toggle {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  margin-left: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 680px) {
+  button {
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  input {
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .detail{
+    color: white;
+    display: flex;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .movie-image {
+    width: 100%;
+  }
+}
+
+.upcoming-movies{
+  flex: 1;
+}
+
+.header-upcoming {
+background-color: #334950;
+padding: 30px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.header-upcoming-title{
+color: white;
+font-size: 30px;
+}
+
+.content-upcoming{
+ margin: 30px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: #4B534A;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.movie-row-detail{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.row-detail-text{
+  margin-left:30px;
+  max-width: 900px;
+}
+.row-property{
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
